@@ -33,8 +33,17 @@ body {
     margin-top: 20px;
 }
 
-.content:hover {
-    background-color: yellow;
+#accountName {
+    color: white;
+}
+
+#accountDot {
+    color: white;
+}
+
+#accountImage>img {
+    height: 30px;
+    width: 30px;
 }
 
 @media only screen and (max-width:400px) {
@@ -65,6 +74,167 @@ body {
         min-height: 100px;
 
     }
+}
+
+#invoice {
+    background-color: rgb(25, 105, 166);
+}
+
+#invoice>div>img {
+    height: 50px;
+    width: 50px;
+}
+
+#invoice>div>p {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#invoice>div>.message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#client {
+    background-color: rgb(200, 50, 51);
+}
+
+#client>div>img {
+    height: 50px;
+    width: 50px;
+}
+
+#client>div>p {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#client>div>.message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sales {
+    background-color: rgb(26, 130, 67);
+}
+
+#sales>div>img {
+    height: 50px;
+    width: 50px;
+}
+
+#sales>div>p {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sales>div>.message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#financial {
+    background-color: rgb(184, 166, 20);
+}
+
+#financial>div>img {
+    height: 50px;
+    width: 50px;
+}
+
+#financial>div>p {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#financial>div>.message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#unpaid {
+    background-color: rgb(148, 153, 69);
+}
+
+#unpaid>div>img {
+    height: 50px;
+    width: 50px;
+}
+
+#unpaid>div>p {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#unpaid>div>.message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#date {
+    background-color: rgb(170, 42, 43);
+}
+
+#date>div>img {
+    height: 50px;
+    width: 50px;
+}
+
+#date>div>p {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#date>div>.message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#started {
+    background-color: rgb(118, 222, 49);
+}
+
+#started>div>img {
+    height: 50px;
+    width: 50px;
+}
+
+#started>div>p {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#started>div>.message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#switch {
+    background-color: rgb(52, 224, 224);
+}
+
+#switch>div>img {
+    height: 50px;
+    width: 50px;
+}
+
+#switch>div>p {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#switch>div>.message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#setting {
+    color: white;
+}
+
+
+#help {
+    color: white;
+}
+
+#dot {
+    color: white;
+}
+
+#account {
+    color: white;
 }
 
 @media only screen and (min-width:410px) {
